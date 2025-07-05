@@ -1,4 +1,4 @@
-# 📢 Sistema de Notificações com Spring Boot e Tarefas Agendadas
+# Sistema de Notificações com Spring Boot e Tarefas Agendadas
 
 Este projeto tem como objetivo demonstrar a criação de um sistema de notificações utilizando **Java com Spring Boot**, incluindo funcionalidades como:
 
@@ -10,7 +10,7 @@ Este projeto tem como objetivo demonstrar a criação de um sistema de notifica�
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot
@@ -22,7 +22,7 @@ Este projeto tem como objetivo demonstrar a criação de um sistema de notifica�
 
 ---
 
-## 🧠 Funcionalidades
+## Funcionalidades
 
 - `GET /notificacoes`: lista todas as notificações
 - `POST /notificacoes`: cria uma nova notificação
@@ -33,7 +33,7 @@ Este projeto tem como objetivo demonstrar a criação de um sistema de notifica�
 
 ---
 
-## 🕒 Tarefa Agendada (Cron)
+## Tarefa Agendada (Cron)
 
 O sistema executa automaticamente a verificação de faturas prestes a vencer e gera notificações para cada um, utilizando a anotação `@Scheduled` com expressão cron personalizada.
 
